@@ -1,0 +1,29 @@
+# Node.js dependencies
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Optional npm cache
+.npm
+
+# Yarn integrity file
+.yarn-integrity
+
+# Test coverage
+/coverage

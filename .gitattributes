@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
+# Set default behavior to normalize line endings
 * text=auto
+
+# Force specific file types to use LF (Unix style)
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+
+# Treat images and binaries as binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Handle shell scripts with LF line endings
+*.sh text eol=lf
